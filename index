@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Pregunta</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #contenedor {
+            text-align: center;
+        }
+
+        input {
+            margin-top: 25px;
+        }
+    </style>
+    <script>
+        function validarRespuesta() {
+            var respuesta = document.getElementById("respuesta").value.toLowerCase();
+            if (respuesta === "lunes") {
+                window.location.href = "paginar.html";
+            } else {
+                alert("Respuesta incorrecta. ¡Inténtalo de nuevo!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Pregunta: ¿Qué día de la semana es?</h1>
+        <input type="text" id="respuesta" placeholder="Tu respuesta">
+        <button onclick="validarRespuesta()">Enviar</button>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Pregunta</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #contenedor {
+            text-align: center;
+        }
+
+        input {
+            margin-top: 25px;
+        }
+    </style>
+    <script>
+        function validarRespuesta() {
+            var respuesta = document.getElementById("respuesta").value.toLowerCase();
+            if (respuesta === "lunes") {
+                window.location.href = "paginar.html";
+            } else {
+                alert("Respuesta incorrecta. ¡Inténtalo de nuevo!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Pregunta: ¿Qué día de la semana es?</h1>
+        <input type="text" id="respuesta" placeholder="Tu respuesta">
+        <button onclick="validarRespuesta()">Enviar</button>
+    </div>
+</body>
+</html>
